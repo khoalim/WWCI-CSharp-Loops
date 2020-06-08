@@ -23,7 +23,7 @@ namespace WWCI_CSharp_Loops
 
             for (iterator =1; iterator<=upperLimit; iterator++) //this is a popular way to write a loop. It's called a FOR loop.
             {
-
+                System.Console.WriteLine(iterator); //we're writing out the number to the screen as we count our loop. Passing argument iterator to Console.WriteLine method
             }
         }
     }
