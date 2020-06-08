@@ -15,6 +15,11 @@ namespace WWCI_CSharp_Loops
              * 2) We'll need a variable to hold the number we're counting. We'll then increment that number after every loop
              * 3) Inside the loop, write out the number to the screen.             
             */
+
+            int upperLimit = 10; //condition for the loop.
+            int iterator; //number we're counting in the loop. I'm declaring it here, and will assign it in the loop itself.
+
+
         }
     }
 }
