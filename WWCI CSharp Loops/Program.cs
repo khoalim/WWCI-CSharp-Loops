@@ -7,7 +7,7 @@ namespace WWCI_CSharp_Loops
         static void Main(string[] args)
         {
             /*
-             * Aprogram that loops over a number and prints it
+             * A program that loops over a number and prints it
              * Let's create a quick algorithm / pseudocode
              * 
              * 1) Identify number of times we'll be looping
@@ -19,7 +19,12 @@ namespace WWCI_CSharp_Loops
             int upperLimit = 10; //condition for the loop.
             int iterator; //number we're counting in the loop. I'm declaring it here, and will assign it in the loop itself.
 
+            //now the loop!
 
+            for (iterator =1; iterator<=upperLimit; iterator++) //this is a popular way to write a loop. It's called a FOR loop.
+            {
+
+            }
         }
     }
 }
